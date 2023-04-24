@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMainMenu">
+
+    <fragment
+        android:id="@+id/fragmentMainMenu"
+        android:name="com.example.victorina20.FragmentMainMenu"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_fragmentMainMenu_to_fragmentCreateRoom"
+            app:destination="@id/fragmentCreateRoom" />
+        <action
+            android:id="@+id/action_fragmentMainMenu_to_fragmentRoomList"
+            app:destination="@id/fragmentRoomList" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCreateRoom"
+        android:name="com.example.victorina20.FragmentCreateRoom"
+        android:label="fragment_create_room"
+        tools:layout="@layout/fragment_create_room" />
+    <fragment
+        android:id="@+id/fragmentRoomList"
+        android:name="com.example.victorina20.FragmentRoomList"
+        android:label="FragmentRoomList" />
+</navigation>

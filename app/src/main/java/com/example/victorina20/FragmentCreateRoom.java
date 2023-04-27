@@ -3,6 +3,7 @@ package com.example.victorina20;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.util.Log;
@@ -26,9 +27,15 @@ public class FragmentCreateRoom extends Fragment implements View.OnClickListener
         // Inflate the layout for this fragment
         binding = FragmentCreateRoomBinding.inflate(inflater, container, false);
 
-        return inflater.inflate(R.layout.fragment_create_room, container, false);
 
-        
+    binding.buttonCreateRoom.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            Intent intent = new Intent(getActivity(),Room.class);
+            startActivity(intent);
+        }
+    });
+    return binding.getRoot();
 
     }
 

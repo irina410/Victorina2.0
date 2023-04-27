@@ -17,26 +17,28 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginBottom="16dp"
-            android:text="создать комнату" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="16dp"
             android:layout_marginLeft="24dp"
-            android:text="найти комнату" />
+            android:layout_marginTop="132dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="80dp"
+            android:text="Играть" />
+
+<!--        <Button-->
+<!--            android:id="@+id/button2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="24dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:layout_marginLeft="24dp"-->
+<!--            android:text="найти комнату" />-->
 
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+
             android:layout_marginRight="24dp"
             android:layout_marginTop="32dp"
             android:layout_marginLeft="24dp"

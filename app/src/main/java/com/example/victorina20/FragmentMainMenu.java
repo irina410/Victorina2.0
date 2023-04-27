@@ -1,5 +1,6 @@
 package com.example.victorina20;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -26,15 +27,18 @@ public class FragmentMainMenu extends Fragment {
         binding.button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                moveToCreateRoom();
+                Intent intent = new Intent(getActivity(), Room.class);
+                startActivity(intent);
+
+                //moveToCreateRoom();
             }
         });
-        binding.button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                moveToRoomList();
-            }
-        });
+//        binding.button2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                moveToRoomList();
+//            }
+//        });
         return binding.getRoot();
     }
     private void moveToCreateRoom() {
@@ -47,4 +51,7 @@ public class FragmentMainMenu extends Fragment {
                 .findNavController(binding.getRoot())
                 .navigate(R.id.action_fragmentMainMenu_to_fragmentRoomList);
     }
+
+
+
 }

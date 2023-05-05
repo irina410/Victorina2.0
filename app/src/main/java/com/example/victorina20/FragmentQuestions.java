@@ -14,15 +14,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.victorina20.databinding.FragmentMainMenuBinding;
+import com.example.victorina20.databinding.FragmentQuestionsBinding;
 
 public class FragmentQuestions extends Fragment {
 
-    private FragmentQuestions binding;
+    private FragmentQuestionsBinding binding;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        binding = FragmentQuestions.inflate(inflater, container, false);
+        binding = FragmentQuestionsBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 }

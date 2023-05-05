@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "756418744244",
+    "project_id": "victorina20-9e74f",
+    "storage_bucket": "victorina20-9e74f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756418744244:android:37c8e0b97c67f685796ce1",
+        "android_client_info": {
+          "package_name": "com.example.victorina20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756418744244-3pa08ihl2nvav7frch3pj274kp6cre1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZMH7nCl64euMCdI9sX7S9R_QU6SovL2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756418744244-3pa08ihl2nvav7frch3pj274kp6cre1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
